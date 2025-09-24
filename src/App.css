@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-nav {
+  list-style: none;
+  gap: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item a {
+  padding: 0;
+}
+.navbar-nav .nav-item a:hover {
+  color: rgb(237, 76, 76);
+}
+.navbar-nav .nav-item a:focus {
+  color: rgb(237, 76, 76);
+}
+
+.hero {
+  background-image: url("./images/hero2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  line-height: 30px;
+  /* padding-top: 130px; */
+  /* padding-left: 70px; */
+  
+}
+
+.hero span {
+  color: rgb(237, 76, 76);
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+.hero p {
+  font-size: 20px;
+}
+.hero button {
+  color: white;
+  background-color: rgb(237, 76, 76);
+  border: none;
+  padding: 10px 25px;
+}
+
+.truck {
+  font-size: 44px;
+}
+
+.col-md-4 .mycard {
+  background-color: rgb(42, 42, 94);
+  color: white;
+  margin: 60px 0;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.arrival {
+  background-image: url("./images/arrival-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+  width: 100%;
+  line-height: 30px;
+}
+
+.arrival h1 {
+  color: darkblue;
+}
+
+.arrival p {
+  font-size: 20px;
+}
+.arrival button {
+  color: white;
+  background-color: rgb(237, 76, 76);
+  border: none;
+  padding: 10px 25px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input {
+  box-shadow: none !important;
+}
+
+.footer {
+  background-color: rgb(8, 8, 55);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.forgot {
+  cursor: pointer;
+}
+.faicons {
+  font-size: 20px;
+  margin-right: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  margin-bottom: 10px;
+}
+
+.product-card .card-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #f8f9fa;
+  border-bottom: none;
+}
+
+.product-card .card-footer {
+  background: #fff;
+  border-top: none;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #198754;
+  margin-bottom: 10px;
+}
+
+.product-btn {
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.log-in a{
+  color: rgb(237, 76, 76);
+}
+
+.nav-cart a{
+  color: black;
+}
+
+.foot{
+  color: rgb(237, 76, 76);
+  text-decoration: none;
+}
+
+
