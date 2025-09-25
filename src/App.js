@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Pages from "./components/Pages";
 import Products from "./components/Products";
@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
       <Navbar/>
       
         <Routes>
@@ -31,7 +31,7 @@ function App() {
           <Route path="/register" element={<Register />}></Route>
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
      
     </>
   );
