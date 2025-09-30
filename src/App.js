@@ -18,7 +18,7 @@ function App() {
     <>
       <HashRouter>
       <Navbar/>
-      
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />}></Route>
@@ -30,6 +30,7 @@ function App() {
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
         </Routes>
+        </main>
         <Footer/>
       </HashRouter>
      

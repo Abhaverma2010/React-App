@@ -1,3 +1,30 @@
+body, html {
+  overflow-x: hidden;
+  width: 100%;     
+  margin: 0;
+  padding: 0;
+}
+
+.hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; 
+}
+
 .navbar-nav {
   list-style: none;
   gap: 20px;
@@ -22,17 +49,32 @@
 }
 
 .hero {
+  position: relative;
   background-image: url("./images/hero2.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: cover;
+  background-repeat: no-repeat;  
+  background-position: center;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
   height: 100vh;
   width: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-  line-height: 30px;
-  /* padding-top: 130px; */
-  /* padding-left: 70px; */
+  /* text-align: center; */
+  padding: 20px;
   
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+ 
+  
+}
+@media screen and (max-width:768px) {
+  /* .hero{
+    max-width: 100% !important;
+    height: auto !important;
+  } */
+   .hero{
+    background-image: none;
+    text-align: center;
+   }
 }
 
 .hero span {
@@ -44,6 +86,7 @@
 }
 .hero p {
   font-size: 20px;
+  
 }
 .hero button {
   color: white;
@@ -68,10 +111,21 @@
   background-image: url("./images/arrival-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: cover;
-  height: 100vh;
+  background-position: center;
+  min-height: 100vh;
   width: 100%;
   line-height: 30px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .arrival {
+        background-position: center center; 
+    }
+    .arrival .arrival-content {
+        padding: 20px; 
+        text-align: center; 
+    }
 }
 
 .arrival h1 {
@@ -99,6 +153,7 @@
 .footer {
   background-color: rgb(8, 8, 55);
   color: white;
+  
 }
 
 .forgot {

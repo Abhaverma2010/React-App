@@ -7,9 +7,9 @@ import Pages from "./Pages.js";
 const Home = () => {
   return (
     <>
-      <div className="container-fluid hero d-flex align-items-center">
+      {/* <div className="container-fluid hero d-flex align-items-center img-fluid">
         <div className="row ">
-          <div className="col-md-5 text-center">
+          <div className="col-md-6">
             <h1>
               <span>Sales 20% Off</span> <br /> On Everything
             </h1>
@@ -21,7 +21,24 @@ const Home = () => {
             </p>
             <button >Shop Now</button>
           </div>
-          <div className="col-md-7"></div>
+         
+        </div>
+      </div> */}
+      <div className="container-fluid hero d-flex align-items-center">
+        <div className="row ">
+          <div className="col-md-6">
+            <h1>
+              <span>Sales 20% Off</span> <br /> On Everything
+            </h1>
+            <p >
+              Explicabo esse amet tempora quibusdam laudantium, laborum eaque
+              magnam fugiat hic? Esse dicta aliquid error repudiandae earum
+              suscipit fugiat molestias, veniam, vel architecto veritatis
+              delectus repellat modi impedit sequi.
+            </p>
+            <button >Shop Now</button>
+          </div>
+         
         </div>
       </div>
      

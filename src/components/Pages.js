@@ -8,10 +8,11 @@ const Pages = () => {
   return (
     <>
       <Blog />
-      <div className="container-fluid arrival d-flex align-items-center">
+      <div className="container-fluid ">
         <div className="row">
-          <div className="col-md-6"></div>
-          <div className="col-md-6">
+        
+          <div className="col-md-12 arrival d-flex justify-content-end align-items-center">
+            <div className="col-md-6 ">
             <h1>#New Arrivals</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -20,6 +21,7 @@ const Pages = () => {
               tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <button>Shop Now</button>
+            </div>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid footer pb-5">
+      <div className="container-fluid footer pb-5 ">
         <div className="row">
           <div className="col-md-4 ms-5 mt-5">
             <h4 className="mb-5">Reach at...</h4>
@@ -49,7 +49,6 @@ const Footer = () => {
               Designed by <Link to="https://github.com/Abhaverma2010" className="foot">Abha Verma</Link>
             </p>
           </div>
-          <div className="col-md-2"></div>
         </div>
       </div>
     </>
