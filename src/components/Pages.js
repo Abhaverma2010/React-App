@@ -11,7 +11,7 @@ const Pages = () => {
       <div className="container-fluid ">
         <div className="row">
         
-          <div className="col-md-12 arrival d-flex justify-content-end align-items-center">
+          <div className="col-md-12 arrival d-flex  align-items-center">
             <div className="col-md-6 ">
             <h1>#New Arrivals</h1>
             <p>

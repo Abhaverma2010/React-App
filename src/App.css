@@ -115,17 +115,15 @@ main {
   min-height: 100vh;
   width: 100%;
   line-height: 30px;
-
+  justify-content: end;
 }
 
 @media screen and (max-width: 768px) {
     .arrival {
-        background-position: center center; 
+        background-image: none;
+        text-align: center;
     }
-    .arrival .arrival-content {
-        padding: 20px; 
-        text-align: center; 
-    }
+   
 }
 
 .arrival h1 {
